@@ -1,6 +1,7 @@
 body{
       /* google-font style */
 font-family: 'Poppins', sans-serif;
+margin: 0;
 }
 .top-section{
     display: flex;
@@ -13,7 +14,7 @@ font-family: 'Poppins', sans-serif;
     margin-right: 140px;
     margin-bottom: 140px;
 }
-h1{
+.title{
     font-weight: 700;
     font-size: 60px;
 }
@@ -127,4 +128,33 @@ h3{
    grid-template-columns: repeat(2,1fr);
    grid-column-gap: 50px;
     
+}
+.footer-section{
+    background-color: #03000c;
+   width: 1600px;
+   height: 400px;
+   margin-top: 930px;
+}
+.footer-head{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+hr{
+    border:1px solid rgb(254, 252, 252);
+    height: 0;
+}
+
+
+.navigation a{
+    text-decoration: none;
+    color: azure;
+    margin: 50px;
+}
+.navigation > ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
