@@ -152,9 +152,9 @@ hr{
     text-decoration: none;
     color: azure;
     margin: 50px;
-}
-.navigation > ul{
+  }
+  .navigation > ul{
     display: flex;
     justify-content: center;
     margin-top: 50px;
-}
+  }
