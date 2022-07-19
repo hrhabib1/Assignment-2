@@ -1,0 +1,45 @@
+body{
+      /* google-font style */
+font-family: 'Poppins', sans-serif;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161212;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+.headline{
+
+    color: aliceblue;
+    width: 531px;
+    height: 424px;
+    margin-left: 140px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.display-pic img{
+    width: 581px;
+    height: 613px;
+}
+.info p{
+    font-size: 16px;
+}
+.watch{
+    background-color: hsl(0, 95%, 54%);
+    border-radius: 5px;
+    padding:5px 20px;
+    
+}
+.live{
+    text-decoration: none;
+    color: aliceblue;
+}
+
