@@ -44,6 +44,14 @@ margin: 0;
   text-decoration: none;
   color: aliceblue;
 }
+.display-pic{
+    transition: transform .5s ease-in-out;
+}
+.top-section:hover .display-pic{
+    transform: rotate(5deg);
+    transform-origin: top left;
+}
+
 
 /* second-section */
 .second-section{
@@ -84,6 +92,9 @@ margin: 0;
 .button-menu-1{
   background-color: hsl(0, 95%, 54%);
   margin-bottom: 20px;
+}
+.button-menu-2:hover{
+    background-color: aqua;
 }
 
 .display-transfer{
@@ -158,3 +169,14 @@ hr{
   justify-content: center;
   margin-top: 50px;
 }
+.social-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: azure;
+    column-gap: 40px;
+}
+.social-link a{
+    text-decoration: none;
+    color: blue;
+  }

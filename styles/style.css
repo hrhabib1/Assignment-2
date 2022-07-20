@@ -44,6 +44,16 @@ margin: 0;
     text-decoration: none;
     color: aliceblue;
 }
+main{
+    margin: 130px 0;
+}
+.display-pic{
+    transition: transform .5s ease-in-out;
+}
+.top-section:hover .display-pic{
+    transform: rotate(5deg);
+    transform-origin: top left;
+}
 
 /* second-section */
 .second-section{
@@ -85,6 +95,10 @@ margin: 0;
     background-color: hsl(0, 95%, 54%);
     margin-bottom: 20px;
 }
+.button-menu-2:hover{
+    background-color: aqua;
+}
+
 
 .display-transfer{
     display: flex;
@@ -163,3 +177,18 @@ hr{
     justify-content: center;
     margin-top: 50px;
   }
+.social-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: azure;
+    column-gap: 40px;
+}
+.social-link a{
+    text-decoration: none;
+    color: blue;
+  }
+
+
+
+
