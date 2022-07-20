@@ -233,13 +233,13 @@ hr{
     .sit-bar{
         justify-content: center;
         align-items: center;
-        margin-left: 120px;
+        margin-left: 15px;
 
     }
     .full-display-transfer{
         grid-template-columns: repeat(1,1fr);
         margin-top: 50px;
-        margin-left: 100px;
+        margin-left: 15px;
     }
     .footer-section{
         margin-top: 1650px;
